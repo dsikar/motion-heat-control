@@ -49,6 +49,8 @@
 */
 
 // Define a stepper and the pins it will use
+// NB in the thread discussion (last post), wires to pins 8 and 9 are swapped over, as listed in notes.
+
 AccelStepper stepper(1,8,9);
 
 void setup()
